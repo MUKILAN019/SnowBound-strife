@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url(assets/loseSadbg.jpg); /*giving background image*/
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        img{
+            width: 300px;
+            margin-left: 40%;
+            margin-top: 6%;
+        }
+        .applygrid{
+            color: white;
+            display: grid;/*giving grid to display in block*/
+            gap: 30px;
+        }
+        .applygrid>h1{
+            margin-left: 43%;
+            font-weight: bolder;
+            font-size: 50px;
+        }
+        #btn1{
+            width:110px;
+            height: 35px;
+            color: blue;
+            font-weight: bolder;
+            font-size: large;
+            margin-left:60% ;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+        #sadsanta{
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.5s ease;
+        }
+        #sadsanta:hover{
+            transform:
+        }
+    </style>
+</head>
+<body>
+    <div class="applygrid">
+        <img src="assets/santasad.png" alt="" id="sadsanta"><!-- giving sad santa img in lose page-->
+        <h1>You Lost</h1>
+    </div>
+    <div>
+        <button id="btn1">Try again</button><!--to return into htmlpage-->
+    </div>
+    <script type="text/javascript"> //js code to got to htmlpage 
+        var button1=document.getElementById("btn1");
+        button1.addEventListener("click",function(e){
+            setTimeout(()=>{
+                window.location.href="./home.html"
+            },500)//giving 500 ms
+               
+})
+    </script>
+</body>
+</html>

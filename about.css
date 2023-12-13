@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(assets/about.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#santaicon{
+    width: 80px;
+}
+.flex1{
+    display: flex;
+    position: absolute;
+    left: 13%;
+}
+.flex1>h1{
+    margin-top:20px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    color: rgb(17, 120, 36);
+}
+.about{
+    width: 70%;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 200, 0, 0.3),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgba(200, 0, 0, 0.6);
+    margin-left: 200px;
+    margin-top: 100px;
+    border: 1px solid black;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
+#text{
+    padding-top: 12%;
+    color: rgb(19, 77, 163);
+    font-weight: 100;
+}
+#btn2{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(214, 235, 243);
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 80%;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.box{
+    height: 110px;
+    width: 250px;
+    margin:5px;
+    background-color:#f2c38c;
+    border-radius: 10px;
+    border-radius: 2px 2px rgb(135, 133, 133);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+.container{
+    height: 50vh;
+    width: 80vh;
+    margin-top: 10%;
+}
+.container2{
+    height: 50vh;
+    width: 80vh;
+    margin-top: 10%;
+}
+.flex2{
+    display: flex;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.candies{
+    width: 100px;
+}
+.badcandies{
+    width: 120px;
+}
+#candy3{
+    margin-top: 10px;
+    width: 170px;
+}
+#candy4{
+    margin-top: 10px;
+}
+#candy5{
+    margin-top: 20px;
+    width: 90px;
+    margin-left: 10px;
+}
+#candy1{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+#candy2{
+    margin-top: 10px;
+}
+.bg{
+    width: 40%;
+    background-color: #b5fffb;
+    height: 40px;
+    border-radius: 15px;
+}
+.bg>h2{
+    margin-left: 22px;
+    padding-top: 5px;
+}
+.word>h3{
+    margin-right: 10px;
+     margin-top: 30px;
+     width: 100%;
+}
+span{
+    color: blue;
+}
+#btn3{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    color: blue;
+    font-weight: bold;
+    background-color: rgb(187, 232, 247);
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+    cursor: pointer;
+}

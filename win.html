@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;/*to remove unwanted margin*/
+            padding: 0%;/*to remove unwanted padding*/
+        }
+        body{
+            background-image: url(assets/WinPage.jpg); /*adding background*/
+            background-size: 100%; 
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+        }
+        #winner{
+            width: 30%;
+            margin-left: 35%;
+            margin-top: 115px;
+        }
+        .addflex{
+            display: flex; /*giving flex to display in inline*/
+            margin-left: 47%;
+            margin-top: 40px;
+            justify-content: space-between;
+            width: 7%;
+        }
+        #score{
+            color: white;
+        }
+        #btn{
+            width: 100px;
+            height: 8%;
+            border-radius: 10px;
+            margin-left: 60%;
+            color: green;
+            font-weight: bolder;
+            font-size: large;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+          <img src="assets/winnerwishes.jpg" alt="" id="winner">  <!-- Greeting Card image to display in page-->
+    </div>
+    <div class="addflex">
+        <h1>Score:</h1><h1 id="score">0</h1><!--Adding score-->
+    </div>
+    <button id="btn">Play again</button><!--Button to go to homepage-->
+    <script src="end.js"></script>
+</body>
+</html>
